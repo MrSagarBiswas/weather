@@ -1,0 +1,55 @@
+/* Body */
+body {
+  text-align: center;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.1) ), url("bg.jpg");
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+form p {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+input {
+  margin-bottom: 20px;
+}
+
+/* Weather Data  */
+.weather-data {
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.weather-data img {
+  vertical-align: middle;
+}
+
+/* Footer */
+
+#footer {
+  padding-bottom: 2%;
+  text-align: center;
+  position: absolute;
+  width: 98%;
+  bottom: 1%;
+  line-height: 0.8rem;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 0.6px rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+#footer .fab {
+  margin: 10px 10px;
+  font-size: 2rem;
+}
+
+#footer a {
+  text-decoration: none;
+}

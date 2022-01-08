@@ -1,0 +1,1 @@
+var x = document.querySelector(".weather-data");x.innerHTML = "<img src=\"http://openweathermap.org/img/wn/04n@2x.png\" alt=\"icon\"><span>broken clouds</span><div>Temperature: 14.89 °C</div><div>Wind Speed: 1.89 m/s</div>";
