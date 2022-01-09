@@ -36,7 +36,7 @@ app.post("/", function (req, res) {
 
                 fs.writeFile('script.js', script, function (err) {
                     if (err) throw err;
-                    console.log('Saved!');
+                    // console.log('Saved!');
                 });
             } else {
                 res.sendFile(__dirname + "/report.html");
@@ -46,7 +46,7 @@ app.post("/", function (req, res) {
 
                 fs.writeFile('script.js', script, function (err) {
                     if (err) throw err;
-                    console.log('Saved!');
+                    // console.log('Saved!');
                 });
 
             }
@@ -63,7 +63,7 @@ app.get("/bg.jpg", function (req, res) {
     res.sendFile(__dirname + "/bg.jpg");
 })
 
-var port = process.env.port || "3000"
+var port = process.env.port || "3000";
 app.listen(port, function () {
-    console.log("Server Started on port 3000.");
+    // console.log("Server Started on port 3000.");
 })
