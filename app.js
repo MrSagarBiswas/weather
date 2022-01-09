@@ -62,6 +62,8 @@ app.get("/script.js", function (req, res) {
 app.get("/bg.jpg", function (req, res) {
     res.sendFile(__dirname + "/bg.jpg");
 })
-app.listen("3000", function () {
+
+var port = process.env.port || "3000"
+app.listen(port, function () {
     console.log("Server Started on port 3000.");
 })
